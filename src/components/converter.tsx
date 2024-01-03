@@ -37,7 +37,7 @@ export default function Converter({ list }: { list: ListRatesProps[] }) {
         name="localeMask"
         formatter={formatter}
         parser={parser}
-        initialValue={13}
+        initialValue={1000}
       />
     )
   }
