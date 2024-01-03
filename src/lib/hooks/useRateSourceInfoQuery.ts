@@ -1,6 +1,6 @@
 import { useQuery } from '@tanstack/react-query'
 
-const prefix = 'https://thingproxy.freeboard.io/fetch/'
+const prefix = 'https://api.allorigins.win/raw?url='
 const API_URL = `${prefix}https://www.cnb.cz/en/financial-markets/foreign-exchange-market/central-bank-exchange-rate-fixing/central-bank-exchange-rate-fixing/daily.txt`
 
 export const parser = (rates: string) =>
