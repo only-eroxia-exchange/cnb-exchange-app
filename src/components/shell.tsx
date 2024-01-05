@@ -6,7 +6,7 @@ import ListRates from './list-rates'
 export default function Shell() {
   const { data } = useRateSourceInfoQuery()
 
-  if (!data) return <>Error fetch data. Try it again.</>
+  if (!data) return null
 
   return (
     <View>
